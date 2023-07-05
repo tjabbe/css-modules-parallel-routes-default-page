@@ -3,12 +3,12 @@ import Headline from "../components/Headline/Headline";
 
 export default function Home() {
   return (
-    <>
-      <Headline title="Headline from /" />
+    <div>
+      <Headline title="Headline from app/page.tsx" />
       <Link href="/demo" style={{ display: "block" }}>
         Go to /demo parallel route
       </Link>
       <Link href="/">Go to /</Link>
-    </>
+    </div>
   );
 }
